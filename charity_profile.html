@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpHub - Charity Profile</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Charity Profile</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="charities.html">Charities</a></li>
+                <li><a href="charity_profile.html">Charity Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Charity 1: Charity Navigator</h2>
+            <img src="char.jpg" alt="Charity 1 Image" width="300"> <!-- Add an image of the charity -->
+            <p>Description: Charity Navigator is a research tool for anyone looking to make a difference.
+You can use Charity Navigator to find and support thousands of charities that align with your passions and values. We use data from the IRS, partners, and the charities themselves to power our unbiased ratings so that you can give with confidence.</p>
+            <p>Location: Global</p>
+            <form action="#" method="POST">
+                <label for="donation">Donate:</label>
+                <input type="number" id="donation" name="donation" placeholder="Enter amount" required>
+                <button type="submit">Donate</button>
+            </form>
+        </section>
+		 <section>
+            <h3>Charity 2: Volunteer Match </h3>
+            <img src="vol.jpg" alt="Charity 2 Image" width="300"> <!-- Add an image of the charity -->
+            <p>Description: VolunteerMatch is the most effective way to recruit highly qualified volunteers for your nonprofit. We match you with people who are passionate about and committed to your cause, and who can help when and where you need themAnd because volunteers are often donors as well, we make it easy for them to contribute their time and money. </p>
+            <p>Location: Global</p>
+            <form action="#" method="POST">
+                <label for="donation">Donate:</label>
+                <input type="number" id="donation" name="donation" placeholder="Enter amount" required>
+                <button type="submit">Donate</button>
+            </form>
+        </section>
+		            <h2>Charity 3: Global Giving</h2>
+            <img src="glo.jpg" alt="Charity 3 Image" width="300"> <!-- Add an image of the charity -->
+            <p>Description: GlobalGiving connects nonprofits, donors, and companies in nearly every country in the world. We help fellow nonprofits access the funding, tools, training, and support they need to serve their communities.</p>
+            <p>Location: Global</p>
+            <form action="#" method="POST">
+                <label for="donation">Donate:</label>
+                <input type="number" id="donation" name="donation" placeholder="Enter amount" required>
+                <button type="submit">Donate</button>
+            </form>
+        </section>
+		<script src="charity_profile.js"></script>
+		<button id="volunteerBtn">Volunteer Now</button>
+		<div id="formContainer" style="display: none;"></div>
+		<p id="charityInfo" style="cursor: pointer;">Hover to learn more about this charity!</p>
+<div id="extraDetails" style="display: none;">This charity focuses on youth education and community development.</div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 HelpHub By Tristan Hayes. All Rights Reserved.</p>
+    </footer>
+		<script src="charity_profile.js"></script>
+
+</body>
+</html>
+
